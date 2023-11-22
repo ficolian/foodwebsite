@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <style>
-      .nav{
-        text-align: center;
-        margin-top: 30px;
-        font-size: 30px;
-        width: 1500px;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-      }
-      .myDiv {
-        text-align: center;
-        margin-top: 10px;
-        font-size: 30px ;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-      }
-  
-    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ligar Chopsticks</title>
+    <title>Home</title>
+    <!-- Template Stylesheet -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+      html {
+        min-height: 100%;
+        background-image: url("Images/kuelupis.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+      .myDiv {
+        padding-top: 20px;
+        margin: 30px;
+        background: rgba(255, 238, 190, 0.5);
+      }
+    </style>
   </head>
   <body>
-    <div class="nav">
-      <nav>
-        <b>
-          <a href="index.html">Home</a>&nbsp;
-          <a href="menu.html">Menu</a>&nbsp;
-          <a href="contact.html">Contact</a>&nbsp;
-        </b>
-      </nav>
-      <br>
+    <!-- Nav Section -->
+    <div class="div-space-between">
+      <div id="rcorners">
+        <a href="index.html" class="nav-head"><i class="fab fa-canadian-maple-leaf"></i>&nbsp;Classic Eatery</a>&nbsp;
+      </div>
+      <div class="nav">
+        <nav>
+          <b>
+            <a href="index.html" class="nav-link">Home</a>&nbsp; 
+            <a href="menu.html" class= "nav-link">Menu</a>&nbsp; 
+            <a href="contact.html" class="nav-link">Contact</a>&nbsp; 
+            <a href="gift.html" class="nav-link">Gift Cards</a>&nbsp;
+            <a href="cart.html" class="nav-link">Cart</a>&nbsp;
+            <a href="login.html" class="btn btn-primary">Login</a>&nbsp;
+          </b>
+        </nav>
+      </div>
+    </div>
+    <!--End Nav Section -->
+    <br>
+    <!-- Start Content Section-->
     <div class="myDiv">
       <a href="menu.html">
-        <img src="images/background.jpg" alt="background" width="250" height="250">
+        <img src="images/rendang.jpg" alt="gambar rendang" width="250" height="250">
       </a>
       <a href="menu.html">
         <img src="images/logo.jpg" alt="logo" width="250" height="250">
@@ -42,10 +57,13 @@
       <a href="menu.html">
         <img src="images/background.jpg" alt="background" width="250" height="250">
       </a>
-      <h1><b>Welcome To Ligar Chopsticks</b></h1>
-      <p>The Ligar Chopsticks provides authentic traditional</p>
+      <h1>
+        <b>Welcome To Jambi Merdeka</b>
+      </h1>
+      <p>The Jambi Merdeka provides authentic traditional</p>
       <p>Indonesian cuisine in Kansas City</p>
+      <i class="bi bi-flower1"></i>
     </div>
-    
+    <!-- End Content Section-->
   </body>
 </html>

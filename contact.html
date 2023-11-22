@@ -2,58 +2,104 @@
 <html lang="en">
   <head>
     <style>
-      .nav{
-        text-align: center;
-        margin-top: 30px;
-        font-size: 30px;
-        width: 1500px;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-      }
-      .myDiv {
-        text-align: center;
+      .contact {
+        text-align: left;
         margin-top: 10px;
         font-size: 30px;
-        padding-top: 10px;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-      }
-      a {
-        color: var(--p-color);
-        text-decoration: none;
+        padding: 20px;
+        font-family: 'Jost', sans-serif;
+        background-color: #ffe18f;
       }
 
-      a:hover {
-        color: var(--secondary-color);
-      }
-      img,svg{vertical-align:middle}
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ligar Chopsticks Contact</title>
+    <title>Jambi Merdeka Contact</title>
+
+    <!-- Template Stylesheet -->
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/external.css">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
   </head>
   <body>
-    <div class="nav">
-      <nav>
-        <b>
-          <a href="index.html">Home</a>&nbsp;
-          <a href="menu.html">Menu</a>&nbsp;
-          <a href="contact.html">Contact</a>&nbsp;
-        </b>
-      </nav>
+    <div class="div-space-between">
+      <div id="rcorners">
+        <a href="index.html" class="nav-head"><i class="fab fa-canadian-maple-leaf"></i>&nbsp;Classic Eatery</a>&nbsp;
+      </div>
+      <div class="nav">
+        <nav>
+          <b>
+            <a href="index.html" class="nav-link">Home</a>&nbsp; 
+            <a href="menu.html" class= "nav-link">Menu</a>&nbsp; 
+            <a href="contact.html" class="nav-link">Contact</a>&nbsp; 
+            <a href="gift.html" class="nav-link">Gift Cards</a>&nbsp;
+            <a href="cart.html" class="nav-link">Cart</a>&nbsp;
+            <a href="login.html" class="btn btn-primary">Login</a>&nbsp;
+          </b>
+        </nav>
+      </div>
     </div>
-    <div class="myDiv" >
-    <h2>Contact Ligar Chopsticks</h2>
-        
-    <a href="https://mail.google.com/">
-      <img src="https://seeklogo.com/images/G/gmail-icon-logo-9ADB17D3F3-seeklogo.com.png" style="width:50px;height:50px;"> 
-      lilachopstick@gmail.com
-    </a>
-    <br>
-    <a href="https://api.whatsapp.com/send/?phone=913-260-1291">
-      <img src="https://seeklogo.com/images/W/whatsapp-logo-33F6A82887-seeklogo.com.png" style="width:50px;height:50px;"> 
-      913-260-1292
-    </a>
+    <h2 class="font-title">Contact Jambi Merdeka</h2>
+    <div class="div-space-around">
+      <div class="contact-container">
+        <h2>Contact Us </h2>
+        <p class="txt-primary">Email</p>
+        <a href="https://mail.google.com/">
+          <i class="fa fa-phone-alt"></i> ligarchopsticks@gmail.com </a>
+        <br><br>
+        <p class="txt-primary">Phone</p>
+        <a href="https://api.whatsapp.com/send/?phone=913-260-1291">
+          <i class="fa fa-envelope-open"></i> 913-260-1292 </a>
+          <br><br>
+        <p class="txt-primary">Main Address</p>
+        <a href="contact.html">
+          <i class="bi bi-geo-alt"></i>Address: 788 Minnesota Avenue  Kansas City, KS 66101</a>
+          <br><br>
+      </div>
+      <div class="contact-container">
+        <h2>Available at other branches</h2>
+        <ul>
+          <li>
+            <strong>Manhattan, New York</strong>
+          </li>
+          <li>
+            <strong>Denver, Colorado</strong>
+          </li>
+          <li>
+            <strong>Newark, Delaware</strong>
+          </li>
+          <li>
+            <strong>Jakarta, Indonesia</strong>
+          </li>
+          <li>
+            <strong>Surabaya, Indonesia</strong>
+          </li>
+        </ul>
+      </div>
+      <div class="contact-container">
+        <input type="text" placeholder="Enter Username" name="username" required>
+        <input type="text" placeholder="Enter Email" name="email" required>
+        <input type="text" placeholder="Message" name="username" required>
+        <input type="text" placeholder="Message" name="username" required>
+        <button type="submit">Send Message</button>
+      </div>
     </div>
+    <footer>
+      <div class="div-flex-start">
+       <div>
+        <h1>Follow Us</h1>
+        <a href="contact.html" class="btn-square">
+          <i class="fab fa-instagram"></i></a>
+        <a href="contact.html" class="btn-square">
+          <i class="fab fa-facebook"></i></a>
+        <a href="contact.html" class="btn-square">
+          <i class="fab fa-twitter"></i></a>
+          <br><br>
+       </div>
+      </div>
+    </footer>
   </body>
-    
 </html>

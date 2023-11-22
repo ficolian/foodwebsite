@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      .user {
+        margin: 40px;
+        font-size: 20px;
+        padding-top: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+      }
+      table,
+      td {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-collapse: collapse;
+        color: black;
+        text-align: left;
+        font-size: 20px;
+        width: 250px;
+      }
+      th {
+        background-color: antiquewhite;
+        text-align: center;
+      }
+      .myDiv{
+        margin-left: 40px;
+      }
+     
+      
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WishList</title>
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="div-space-between">
+      <div id="rcorners">
+        <a href="index.html" class="nav-head"><i class="fab fa-canadian-maple-leaf"></i>&nbsp;Classic Eatery</a>&nbsp;
+      </div>
+      <div class="nav">
+        <nav>
+          <b>
+            <a href="index.html" class="nav-link">Home</a>&nbsp; 
+            <a href="menu.html" class= "nav-link">Menu</a>&nbsp; 
+            <a href="contact.html" class="nav-link">Contact</a>&nbsp; 
+            <a href="gift.html" class="nav-link">Gift Cards</a>&nbsp;
+            <a href="cart.html" class="nav-link">Cart</a>&nbsp;
+            <a href="login.html" class="btn btn-primary">Login</a>&nbsp;
+          </b>
+        </nav>
+      </div>
+    </div>
+    <div class="user">
+      <p>Customer Name&nbsp;:&nbsp;Jane Smith</p>
+      <p>Address&nbsp;:&nbsp;3909 Witmer Rd, Niagara Falls, NY 14305, United States</p>
+      <p>Transaction Order&nbsp;:&nbsp;0123123</p>
+      <p>Transaction Order Date&nbsp;:&nbsp;January, 15 2023</p>
+    </div>
+    <div class="myDiv">
+      <table style="width:100%">
+        <tr>
+          <th>Menu Name</th>
+          <th>Price</th>
+          <th>Total</th>
+        </tr>
+        <tr>
+          <td>
+          <div class = "div-cart">
+              <img src="images/currychicken.jpg" alt="Lontong Balap" width="80" height="80">
+              <div style="padding: 10px 10px; width: 150px;">
+                <p class="p-card">Chicken Curry</p>
+                <p class="p-card">2x</p>
+                <i class="i-card bi bi-trash-fill"></i>
+              </div>
+            </div>
+          </td>
+          <td style="text-align: center;">$18</td>
+          <td style="text-align: center;">$36</td>
+        </tr>
+        <tr>
+          <td>
+            <div class = "div-cart">
+              <img src="images/bebekmadura.jpg" alt="Lontong Balap" width="80" height="80">
+              <div style="padding: 10px 10px; width: 150px;">
+                <p class="p-card">Bebek Maduranese</p>
+                <p class="p-card">2x</p>
+                <i class="i-card bi bi-trash-fill"></i>
+              </div>
+            </div>
+          </td>
+          <td style="text-align: center;">$18</td>
+          <td style="text-align: center;">$36</td>
+        </tr>
+        <tr>
+          <th></th>
+          <th style="text-align: center;">Total Payment</th>
+          <th style="text-align: center;">$72</th>
+        </tr>
+      </table>
+    </div>
+    <div class="user">
+      <p>Customer Notes</p>
+      <textarea rows="4" cols="50"></textarea>
+      <br>
+      <button type="button" class="btn btn-primary">Order</button>
+    </div>
+  </body>
+</html>
